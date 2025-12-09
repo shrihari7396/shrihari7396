@@ -93,27 +93,25 @@ Exam interface with **tab-switch detection**, cheating prevention, and admin-con
 
 ---
 
+
 ## 🌟 **Featured Projects**
 
-### 🔒 Secure Chat System
+### 🛡️ **Anti-Plagiarism Examination Platform**
 
-Real-time encrypted communication with authentication and WebSockets.
+An exam portal designed to prevent cheating by detecting **tab switching**, monitoring user focus, and auto-disqualifying participants. Built for coding assessments and competitive exam environments.
 
-### 🤖 Code Execution Platform
+### 👮 **eFIR Portal (Hackathon Project)**
 
-Runs multiple languages in isolated Docker containers with live streaming output.
+A digital FIR management system where citizens can file complaints online and police can review, update, and resolve cases efficiently. Designed to simplify communication and reduce paperwork in the FIR process.
 
-### 📢 Lost & Found – PICT
+### 🧬 **PDF Malware Detection System**
 
-A smooth platform for posting, tracking, and resolving lost/found items.
+A security-focused system that analyzes PDF files to identify potential malware using static analysis, metadata inspection, and machine-learning-based classification. Built to help users detect harmful PDFs before opening them.
 
-### 🛡️ Anti-Plagiarism Exam Portal
+---
 
-Detects tab switching and removes participants automatically, similar to competitive exams.
 
-### 👮 eFIR Portal (Hackathon Project)
 
-Citizen-police FIR handling system for faster complaint resolution.
 
 ### 🤝 Handout to Needy – Donation Platform
 
