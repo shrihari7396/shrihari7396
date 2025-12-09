@@ -93,7 +93,6 @@ Exam interface with **tab-switch detection**, cheating prevention, and admin-con
 
 ---
 
-
 ## 🌟 **Featured Projects**
 
 ### 🛡️ **Anti-Plagiarism Examination Platform**
@@ -109,8 +108,6 @@ A digital FIR management system where citizens can file complaints online and po
 A security-focused system that analyzes PDF files to identify potential malware using static analysis, metadata inspection, and machine-learning-based classification. Built to help users detect harmful PDFs before opening them.
 
 ---
-
-
 
 
 ### 🤝 Handout to Needy – Donation Platform
