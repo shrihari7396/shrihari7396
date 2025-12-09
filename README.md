@@ -110,25 +110,9 @@ A security-focused system that analyzes PDF files to identify potential malware 
 ---
 
 
-### 🤝 Handout to Needy – Donation Platform
-
-Connects donors → suppliers → institutes without money transfer.
-
----
-
 ## 🔗 **Find Me Online**
 
 * **LinkedIn:** [https://www.linkedin.com/in/shrihari-kulkarni-467767299/](https://www.linkedin.com/in/shrihari-kulkarni-467767299/)
 * **GitHub:** [https://github.com/shrihari7396](https://github.com/shrihari7396)
 
 ---
-
-## 📊 **GitHub Stats**
-
-```md
-![Shrihari's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shrihari7396&show_icons=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shrihari7396)
-```
-
----
-
