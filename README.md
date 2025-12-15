@@ -68,9 +68,9 @@ IntelliJ IDEA • VS Code • Postman • Git/GitHub • Docker • MySQL Workbe
 
 A complete real-time chat platform with **E2E encryption (AES/RSA)**, JWT/OAuth2 authentication, DoS protection, and WebSocket live messaging.
 
-### 🛡️ **3. Anti-Plagiarism Coding Exam Platform**
+### 🔒 **2. Centralized KYC-System**
 
-Exam interface with **tab-switch detection**, cheating prevention, and admin-controlled evaluation.
+System who will does kyc of user once in life time every were user will use our system do kyc with scanning QR of Institutins which are also provided to bank by our system
 
 ---
 
