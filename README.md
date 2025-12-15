@@ -68,15 +68,7 @@ IntelliJ IDEA • VS Code • Postman • Git/GitHub • Docker • MySQL Workbe
 
 A complete real-time chat platform with **E2E encryption (AES/RSA)**, JWT/OAuth2 authentication, DoS protection, and WebSocket live messaging.
 
-### 🤖 **2. College Code Execution Platform (Sphere Engine-like)**
-
-A Docker-powered execution system for Java/C++/Python with isolated containers, parallel execution, and WebSocket streaming output.
-
-### 📢 **3. Lost & Found Website – PICT SCTCR**
-
-A simple and effective platform for students to report and recover lost belongings.
-
-### 🛡️ **4. Anti-Plagiarism Coding Exam Platform**
+### 🛡️ **3. Anti-Plagiarism Coding Exam Platform**
 
 Exam interface with **tab-switch detection**, cheating prevention, and admin-controlled evaluation.
 
