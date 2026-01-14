@@ -108,3 +108,6 @@ A security-focused system that analyzes PDF files to identify potential malware 
 * **GitHub:** [https://github.com/shrihari7396](https://github.com/shrihari7396)
 
 ---
+
+![Profile Views](https://komarev.com/ghpvc/?username=shrihari7396&label=Profile%20Views&color=0e75b6&style=flat)
+
