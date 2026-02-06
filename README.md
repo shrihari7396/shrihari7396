@@ -1,113 +1,168 @@
-
 # 👋 Hey, I'm **Shrihari Kulkarni**
 
-I’m a **Java Backend Developer** who loves building scalable systems, secure applications, and real-world tech that solves actual problems.
-Most of my work revolves around **Spring Boot, security, Docker-based environments, and backend engineering**—and I’m constantly learning new things to level up.
+🚀 **Java Backend Developer** focused on building **secure, scalable, and production-oriented backend systems**.  
+I primarily work with **Spring Boot**, designing **APIs, security layers, monitoring components, and backend services** with a strong emphasis on real-world constraints.
 
 ---
 
-## 🏷️ **About Me / Tagline**
+## 🏷️ About Me
 
-**Backend Developer | Spring Boot | Security | Databases | DevOps Explorer**
+**Backend Development | Spring Boot | Security | Databases | DevOps (Learning)**
 
-I enjoy designing systems that are clean, efficient, and secure. Whether it's a real-time chat application, a code execution engine, or a hackathon project, I love working end to end—architecture to deployment.
+I enjoy working on the **core layers of backend systems** — authentication, authorization, logging, monitoring, and service integration.  
+From **security gateways** and **exam platforms** to **identity verification systems**, I like building solutions end-to-end:  
+**architecture → implementation → deployment**.
 
 ---
 
-## 🧠 **Skills & Technologies**
+## 🧠 Skills & Technologies
 
 ### 🔹 Programming Languages
+- **Java** (Primary – Backend Development)  
+- Python (ML & scripting)  
+- C++ (DSA & problem solving)  
+- SQL  
+- JavaScript (Basics & API usage)  
 
-Java • Python • C++ • SQL • JavaScript
+---
 
 ### 🔹 Backend & Frameworks
+- **Spring Boot**  
+- Spring Security (JWT, OAuth2, Filters)  
+- Spring Data JPA / Hibernate  
+- RESTful API Design  
+- WebSockets (real-time communication)  
+- Microservices concepts  
 
-* Spring Boot
-* Spring Security (JWT, OAuth2)
-* Spring Data JPA / Hibernate
-* WebSockets
-* REST API Development
-* Basics of Microservices
+---
 
 ### 🔹 Databases
+- MySQL  
+- Schema Design & Normalization (1NF – BCNF)  
+- Query optimization & indexing  
 
-* MySQL
-* Query Optimization & Normalization (1NF–BCNF)
+---
 
 ### 🔹 DevOps & Cloud
-
-* Docker
-* Kubernetes (learning)
-* CI/CD (GitHub Actions, Jenkins – learning)
-* Google Cloud Serverless
-* VirtualBox environments
-
-### 🔹 Machine Learning (Beginner → Intermediate)
-
-* Cosine similarity, vector operations
-* Deepfake detection basics
-* TensorFlow with GPU (RTX 4050)
-
-### 🔹 Additional Skills
-
-* Data Structures & Algorithms
-* System Design (LLD)
-* Secure Systems (AES/RSA, DoS protection, logging)
+- Docker (containerization & isolation)  
+- Kubernetes (learning)  
+- CI/CD fundamentals (GitHub Actions, Jenkins)  
+- Google Cloud (basic serverless concepts)  
+- VirtualBox & virtualized environments  
 
 ---
 
-## 🛠️ **Tools I Use Regularly**
-
-IntelliJ IDEA • VS Code • Postman • Git/GitHub • Docker • MySQL Workbench • Maven • VirtualBox • Figma
-
----
-
-## 🚀 **What I'm Currently Building**
-
-### 🔒 **1. Secure Chat System (WhatsApp-style)**
-
-A complete real-time chat platform with **E2E encryption (AES/RSA)**, JWT/OAuth2 authentication, DoS protection, and WebSocket live messaging.
-
-### 🔒 **2. Centralized KYC-System**
-
-System who will does kyc of user once in life time every were user will use our system do kyc with scanning QR of Institutins which are also provided to bank by our system
+### 🔹 Machine Learning (Foundational)
+- Vector operations & cosine similarity  
+- Deepfake detection fundamentals  
+- TensorFlow with GPU support  
 
 ---
 
-## 📚 **What I’m Learning Right Now**
-
-* Advanced Spring Security
-* DevOps → Docker, Kubernetes, CI/CD pipelines
-* Cloud deployment (AWS/GCP)
-* Real-world system design
-* OpenCV
-* Converting Python ML models for Java applications
+### 🔹 Additional Strengths
+- Data Structures & Algorithms  
+- Low-Level Design (LLD)  
+- Secure system design mindset  
+- Logging, monitoring & defensive coding  
 
 ---
 
-## 🌟 **Featured Projects**
+## 🛠️ Tools I Use Regularly
+IntelliJ IDEA • VS Code • Git/GitHub • Docker • Postman • MySQL Workbench • Maven • VirtualBox • Linux • Figma
 
-### 🛡️ **Anti-Plagiarism Examination Platform**
+---
 
-An exam portal designed to prevent cheating by detecting **tab switching**, monitoring user focus, and auto-disqualifying participants. Built for coding assessments and competitive exam environments.
+## 🚀 What I'm Currently Building
 
-### 👮 **eFIR Portal (Hackathon Project)**
+### 🛡️ Setigate – Security Gateway & Defense Monitoring System
+🔗 **Repository:** [SentientGate](https://github.com/shrihari7396/SentientGate.git)
 
-A digital FIR management system where citizens can file complaints online and police can review, update, and resolve cases efficiently. Designed to simplify communication and reduce paperwork in the FIR process.
+**Setigate** is a **centralized security gateway** designed to **monitor application logs and traffic patterns in real time**, detect suspicious behavior, and **take automated defensive actions**.
 
-### 🧬 **PDF Malware Detection System**
+**Core responsibilities:**
+- Acts as a gateway in front of backend services  
+- Centralized log ingestion and analysis  
+- Real-time detection of abnormal or malicious patterns  
+- Automated defensive actions (rate limiting, blocking, alerting)  
+- API-based integration with multiple services  
+- Designed for security monitoring, audit readiness, and threat response  
 
-A security-focused system that analyzes PDF files to identify potential malware using static analysis, metadata inspection, and machine-learning-based classification. Built to help users detect harmful PDFs before opening them.
+This project focuses on **prevention, observability, and automated security enforcement**, inspired by real-world **WAF, SIEM, and API Gateway security layers**.
+
+---
+
+### 🆔 Centralized KYC Verification System
+🔗 **Repository:** [Centralized-KYC-System](https://github.com/shrihari7396/Centralized-KYC-System.git)
+
+A **secure, one-time KYC platform** designed to eliminate repeated identity verification across institutions.
+
+**System overview:**
+- Users complete **KYC only once in their lifetime**
+- Institutions verify users via **QR-based authentication**
+- Banks and organizations onboard through a trusted registration flow
+- Central authority manages institution verification and trust
+
+**Security & architecture highlights:**
+- Identity verification handled through a **centralized backend service**
+- QR codes act as short-lived, verifiable identity tokens
+- Secure API integration for third-party institutions
+- Audit logs maintained for all verification requests
+- Designed with **privacy, data minimization, and compliance** in mind
+
+This system focuses on **reducing friction, preventing identity duplication, and ensuring secure, reusable verification** across multiple platforms.
+
+---
+
+## 🌟 Featured Projects
+
+### 🛡️ Anti-Plagiarism Examination Platform
+🔗 **Repository:** [Anti_Plagarism_Interface](https://github.com/shrihari7396/Anti_Plagarism_Interface.git)
+
+A secure online exam system designed to **prevent cheating**:
+- Detects tab switching & focus loss  
+- Auto-disqualifies candidates on rule violation  
+- Designed for coding tests & competitive exams  
+- Inspired by real examination systems (JEE / CET style)  
+
+---
+
+### 👮 eFIR Portal (Hackathon Project)
+🔗 **Repository:** [FIRsystem](https://github.com/vivek-9941/FIRsystem.git)
+
+A digital FIR management system enabling:
+- Citizens to file complaints online  
+- Police to review, update, and resolve FIRs  
+- Reduced paperwork & faster case tracking  
+- Transparent communication workflow  
+
+---
+
+### 🧬 PDF Malware Detection System
+🔗 **Repository:** [Pdf-Malware-Detection-System](https://github.com/shrihari7396/Pdf-Malware-Detection-System.git)
+
+A security-focused system that:
+- Analyzes PDF metadata & structure  
+- Performs static analysis  
+- Uses ML-based classification  
+- Helps users detect malicious PDFs before opening  
 
 ---
 
 
-## 🔗 **Find Me Online**
+## 📚 What I’m Learning Right Now
+- Advanced Spring Security  
+- Docker, Kubernetes & CI/CD Pipelines  
+- Cloud Deployment (AWS / GCP)  
+- Real-world System Design  
+- OpenCV  
+- Converting Python ML models into Java  
 
-* **LinkedIn:** [https://www.linkedin.com/in/shrihari-kulkarni-467767299/](https://www.linkedin.com/in/shrihari-kulkarni-467767299/)
-* **GitHub:** [https://github.com/shrihari7396](https://github.com/shrihari7396)
+---
+
+## 🔗 Find Me Online
+- **LinkedIn:** https://www.linkedin.com/in/shrihari-kulkarni-467767299/  
+- **GitHub:** https://github.com/shrihari7396  
 
 ---
 
 ![Profile Views](https://komarev.com/ghpvc/?username=shrihari7396&label=Profile%20Views&color=0e75b6&style=flat)
-
