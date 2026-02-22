@@ -177,4 +177,5 @@ A secure online exam system designed to prevent cheating:
 * **LinkedIn:** [https://www.linkedin.com/in/shrihari-kulkarni-467767299/](https://www.linkedin.com/in/shrihari-kulkarni-467767299/)
 * **GitHub:** [https://github.com/shrihari7396](https://github.com/shrihari7396)
 
+![Profile Views](https://komarev.com/ghpvc/?username=shrihari7396&label=Profile%20Views&color=0e75b6&style=flat)
 ---
