@@ -81,10 +81,10 @@ An ML-powered cybersecurity tool designed to statically analyze and classify PDF
 
 ## 📊 GitHub Stats
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=shrihari7396&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shrihari7396&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-</p>
+</p> -->
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=shrihari7396&theme=tokyonight&hide_border=true" height="170"/>
