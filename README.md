@@ -1,181 +1,96 @@
+<div align="center">
+  <h1>Hi 👋, I'm Shrihari Kulkarni</h1>
+  <h3>Java Backend Developer | Security 🛡️ | Distributed Systems ⚙️</h3>
+  
+  <p>
+    Focused on building <b>secure, scalable, and production-oriented backend systems</b>. <br/>
+    I specialize in <b>Spring Boot</b>, designing APIs, security layers, monitoring components, and backend architecture.
+  </p>
+  
+  <p>
+    <a href="https://www.linkedin.com/in/shrihari-kulkarni-467767299/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://github.com/shrihari7396"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  </p>
+</div>
 
 ---
 
-# 👋 Hey, I'm **Shrihari Kulkarni**
+## ⚡ About Me
 
-🚀 **Java Backend Developer** focused on building **secure, scalable, and production-oriented backend systems**.
-I primarily work with **Spring Boot**, designing **APIs, security layers, monitoring components, and backend services** with a strong emphasis on real-world constraints.
-
----
-
-## 🏷️ About Me
-
-**Backend Development | Spring Boot | Security | Databases | DevOps (Learning)**
-
-I enjoy working on the **core layers of backend systems** — authentication, authorization, logging, monitoring, and service integration.
-From **security gateways** and **exam platforms** to **identity verification systems**, I like building solutions end-to-end:
-**architecture → implementation → deployment**.
+- 🔭 I’m currently building: **Centralized KYC Verification System**
+- 🌱 I’m currently learning: **Advanced Spring Security, Kubernetes, AWS/GCP, and System Design**
+- 🛠️ I enjoy working on the **core layers of backend systems** — authentication, authorization, logging, monitoring, and service integration.
+- 🎯 My focus: **Architecture → Implementation → Deployment**
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/shrihari-kulkarni-467767299/)
 
 ---
 
-## 🧠 Skills & Technologies
+## 💻 Tech Stack & Tools
 
-### 🔹 Programming Languages
+### Languages
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+![SQL](https://img.shields.io/badge/SQL-%23000000.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-* **Java** (Primary – Backend Development)
-* Python (ML & scripting)
-* C++ (DSA & problem solving)
-* SQL
-* JavaScript (Basics & API usage)
+### Backend & Frameworks
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white) 
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-%2300599C.svg?style=for-the-badge&logo=postman&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-0089D6?style=for-the-badge&logo=hyperledger&logoColor=white)
 
----
+### Databases
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-### 🔹 Backend & Frameworks
-
-* **Spring Boot**
-* Spring Security (JWT, OAuth2, Filters)
-* Spring Data JPA / Hibernate
-* RESTful API Design
-* WebSockets (real-time communication)
-* Microservices concepts
-
----
-
-### 🔹 Databases
-
-* MySQL
-* Schema Design & Normalization (1NF – BCNF)
-* Query optimization & indexing
+### DevOps, Cloud & Tools
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) 
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) 
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
-### 🔹 DevOps & Cloud
+## 🚀 Featured Projects
 
-* Docker (containerization & isolation)
-* Kubernetes (learning)
-* CI/CD fundamentals (GitHub Actions, Jenkins)
-* Google Cloud (basic serverless concepts)
-* VirtualBox & virtualized environments
+### 🛡️ [SentinelGate](https://github.com/shrihari7396/SentientGate) - Security Gateway & Defense Monitoring System
+A centralized API gateway built with **Spring Boot** designed to monitor backend services in real-time, detect abnormal traffic patterns, and automatically enforce defensive measures.
+- **Architecture**: Microservices gateway utilizing strict logging and monitoring pipelines inspired by WAF/SIEM.
+- **Security Features**: Real-time anomaly detection (rate abuse, suspicious patterns), automated defense actions (IP blocking, rate limiting, alerting).
+- **Tech Stack**: Java, Spring Boot, Spring Cloud Gateway, Kafka, MySQL, Redis, Docker.
 
----
+### 🆔 [Centralized KYC Verification System](https://github.com/shrihari7396/Centralized-KYC-System) *(Currently Building 🚧)*
+A secure, one-time KYC platform designed to eliminate repeated identity verification across institutions using tokenized access.
+- **Privacy-First Design**: Short-lived QR-based identity tokens and data minimization design.
+- **Security Features**: Audit logs for compliance, secure API integration for third-party institutions.
+- **Tech Stack**: Spring Boot, Spring Security (OAuth2/JWT), PostgreSQL.
 
-### 🔹 Machine Learning (Foundational)
+### 🎓 [Anti-Plagiarism Examination Platform](https://github.com/shrihari7396/Anti_Plagarism_Interface)
+A secure online examination system designed to prevent cheating in competitive exams and coding platforms.
+- **Proctoring**: Detects tab switching, monitors focus-loss events, and auto-disqualifies based on predefined logic.
+- **Tech Stack**: Java, Spring Boot, WebSockets (for real-time tracking).
 
-* Vector operations & cosine similarity
-* Deepfake detection fundamentals
-* TensorFlow with GPU support
-
----
-
-### 🔹 Additional Strengths
-
-* Data Structures & Algorithms
-* Low-Level Design (LLD)
-* Secure system design mindset
-* Logging, monitoring & defensive coding
-
----
-
-## 🛠️ Tools I Use Regularly
-
-IntelliJ IDEA • VS Code • Git/GitHub • Docker • Postman • MySQL Workbench • Maven • VirtualBox • Linux • Figma
+### 🧬 [PDF Malware Detection System](https://github.com/shrihari7396/Pdf-Malware-Detection-System)
+An ML-powered cybersecurity tool designed to statically analyze and classify PDF files for potential malware before execution.
+- **Capabilities**: Static PDF structure analysis and metadata extraction.
+- **Tech Stack**: Python, TensorFlow (GPU), ML modeling.
 
 ---
 
-Good decision 👍 That shows growth and active development.
+## 📊 GitHub Stats
 
-Here is the corrected and professional version where **KYC is marked as “Currently Building”**.
-
-You can directly replace your Featured Projects section with this:
-
----
-
-# 🚀 Featured Projects
-
----
-
-## 🛡️ SentinelGate – Security Gateway & Defense Monitoring System
-
-🔗 **Repository:** [https://github.com/shrihari7396/SentientGate](https://github.com/shrihari7396/SentientGate)
-
-**SentinelGate** is a centralized security gateway designed to monitor backend services in real time, detect abnormal traffic patterns, and automatically enforce defensive measures.
-
-### 🔍 Core Capabilities
-
-* Acts as a gateway in front of backend services
-* Centralized log ingestion & structured logging pipeline
-* Real-time anomaly detection (rate abuse, suspicious patterns)
-* Automated defense actions (rate limiting, IP blocking, alerting)
-* API-based integration for multi-service environments
-* Designed inspired by WAF / SIEM / API Gateway security models
-
-Demonstrates strong focus on **secure architecture, observability, and automated enforcement systems**.
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shrihari7396&show_icons=true&theme=tokyonight&hide_border=true" alt="Shrihari's GitHub stats" height="180px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shrihari7396&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="180px"/>
+</div>
+<br/>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=shrihari7396&label=Profile%20Views&color=00c9ff&style=flat" alt="Profile views" />
+</div>
 
 ---
-
-## 🆔 Centralized KYC Verification System *(Currently Building 🚧)*
-
-🔗 **Repository:** [https://github.com/shrihari7396/Centralized-KYC-System](https://github.com/shrihari7396/Centralized-KYC-System)
-
-A secure, one-time KYC platform designed to eliminate repeated identity verification across institutions.
-
-### 🎯 Vision
-
-* Users complete KYC only once
-* Institutions verify users through QR-based authentication
-* Central authority manages institutional trust
-
-### 🔐 Architecture & Security Focus
-
-* Centralized identity verification backend
-* Short-lived QR-based identity tokens
-* Secure API integration for third-party institutions
-* Audit logs for compliance & traceability
-* Privacy-first and data minimization design
-
-> Currently working on strengthening token validation, security layers, and deployment architecture.
-
----
-
-## 🛡️ Anti-Plagiarism Examination Platform
-
-🔗 **Repository:** [https://github.com/shrihari7396/Anti_Plagarism_Interface](https://github.com/shrihari7396/Anti_Plagarism_Interface)
-
-A secure online exam system designed to prevent cheating:
-
-* Tab switching detection
-* Focus-loss monitoring
-* Auto disqualification logic
-* Designed for competitive exams & coding platforms
-
----
-
-## 🧬 PDF Malware Detection System
-
-🔗 **Repository:** [https://github.com/shrihari7396/Pdf-Malware-Detection-System](https://github.com/shrihari7396/Pdf-Malware-Detection-System)
-
-* Static PDF structure analysis
-* Metadata extraction
-* ML-based classification
-* Malicious file detection before execution
-
----
-
-## 📚 What I’m Learning Right Now
-
-* Advanced Spring Security
-* Docker, Kubernetes & CI/CD Pipelines
-* Cloud Deployment (AWS / GCP)
-* Real-world System Design
-* OpenCV
-* Converting Python ML models into Java
-
----
-
-## 🔗 Find Me Online
-
-* **LinkedIn:** [https://www.linkedin.com/in/shrihari-kulkarni-467767299/](https://www.linkedin.com/in/shrihari-kulkarni-467767299/)
-* **GitHub:** [https://github.com/shrihari7396](https://github.com/shrihari7396)
-
-![Profile Views](https://komarev.com/ghpvc/?username=shrihari7396&label=Profile%20Views&color=0e75b6&style=flat)
----
+<div align="center">
+  <i>"Building secure, observable, and resilient systems."</i>
+</div>
