@@ -91,6 +91,13 @@ An ML-powered cybersecurity tool designed to statically analyze and classify PDF
 </div>
 
 ---
+
+## 📈 GitHub Contribution Graph
+
+[![Shrihari's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=shrihari7396&theme=react-dark)](https://github.com/shrihari7396)
+
+---
+
 <div align="center">
   <i>"Building secure, observable, and resilient systems."</i>
 </div>
