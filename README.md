@@ -81,20 +81,26 @@ An ML-powered cybersecurity tool designed to statically analyze and classify PDF
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=shrihari7396&show_icons=true&theme=tokyonight&hide_border=true" alt="Shrihari's GitHub stats" height="180px"/>
-  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=shrihari7396&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="180px"/>
-</div>
-<br/>
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=shrihari7396&label=Profile%20Views&color=00c9ff&style=flat" alt="Profile views" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shrihari7396&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shrihari7396&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=shrihari7396&theme=tokyonight&hide_border=true" height="170"/>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shrihari7396&label=Profile%20Views&color=00c9ff&style=flat" />
+</p>
 
 ---
 
 ## 📈 GitHub Contribution Graph
 
-[![Shrihari's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=shrihari7396&theme=react-dark)](https://github.com/shrihari7396)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shrihari7396&theme=tokyo-night&hide_border=true" />
+</p>
 
 ---
 
