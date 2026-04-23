@@ -21,7 +21,7 @@
 - 🌱 I’m currently learning: **Advanced Spring Security, Kubernetes, AWS/GCP, and System Design**
 - 🛠️ I enjoy working on the **core layers of backend systems** — authentication, authorization, logging, monitoring, and service integration.
 - 🎯 My focus: **Architecture → Implementation → Deployment**
-- 🏆 **9.30 CGPA** | **Top 7% in AICTE National CTF** | **650+ Algorithmic Problems Solved**
+- 🏆 **9.30 CGPA** | **Top 7% in AICTE National CTF** | **850+ Algorithmic Problems Solved**
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/shrihari-kulkarni-467767299/)
 
 ---
