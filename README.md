@@ -95,23 +95,30 @@ A stateless, high-throughput security gateway that monitors backend services in 
 </td>
 <td width="50%" valign="top">
 
-### 🆔 [Decentralized KYC Infrastructure](https://github.com/shrihari7396/Centralized-KYC-System)
-**Distributed Identity Verification** `Alpha 🚧`
+### 🥉 [Centralized KYC System](https://github.com/shrihari7396/Centralized-KYC-System)
+**Consent-Driven Distributed Identity Platform** `Alpha 🚧`
 
-Eliminates redundant KYC checks across institutions using cryptographic short-lived tokens.
+A microservices-based KYC orchestration system that eliminates redundant verification across institutions while enforcing secure, consent-based data access.
 
 **Key Design Decisions:**
-- `Privacy` → Short-lived QR-based identity tokens with data minimization to prevent replay attacks
-- `Compliance` → Immutable audit logs via a dedicated audit database
+- `Single Source of Truth` → One verified identity reusable across organizations
+- `Consent` → Explicit user authorization required before any data access
+- `Event-Driven` → Asynchronous communication using Kafka
+- `Security` → JWT authentication, RBAC, and encrypted data storage
+- `Lifecycle` → Automated renewal, revocation, and update workflows
 
 **Highlights:**
-- 🔑 OAuth2/JWT-based stateless authentication
-- 📋 Immutable audit trail for regulatory compliance
-- 🏛️ Multi-institution identity federation
+- 🔐 Consent-based identity sharing with strict access control
+- ⚡ Event-driven microservices using Apache Kafka
+- 🏛️ Multi-institution KYC orchestration
+- 📊 Strong data governance and trust boundary enforcement
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-D82C20?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 </td>
 </tr>
