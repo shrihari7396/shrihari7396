@@ -72,25 +72,34 @@ highlights  :
 <table>
 <tr>
 <td width="50%" valign="top">
+  
+### 🛡️ [SentientGate](https://github.com/shrihari7396/SentientGate)
 
-### 🛡️ [SentinelGate](https://github.com/shrihari7396/SentientGate)
-**Edge Security API Gateway**
+**AI-Powered Security API Gateway**
 
-A stateless, high-throughput security gateway that monitors backend services in real-time, detects abnormal traffic, and enforces automated defensive measures.
+A stateless, high-throughput security gateway that detects and mitigates malicious traffic in real time using an event-driven architecture, enforcing gateway-level protection before requests reach backend services.
 
 **Key Design Decisions:**
-- `Problem` → Low-latency request interception without blocking the main I/O thread
-- `Solution` → Asynchronous Kafka pipeline with Redis caching for threat analysis and IP blacklisting
+
+* `Problem` → Detect and block malicious clients without increasing request-path latency or consuming backend resources
+* `Solution` → Fire-and-forget Kafka event pipeline with Redis-backed blacklist enforcement, Strategy Pattern-based threat detection, and AI-assisted analysis
 
 **Highlights:**
-- 🔍 Device fingerprinting & real-time anomaly detection
-- 🚫 Automated IP blocking and rate limiting
-- 🔐 RSA Cryptography for request signing
 
-![Spring](https://img.shields.io/badge/Spring_Cloud_Gateway-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DD0031?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white)
+* 🪪 Cryptographically signed Visitor ID tracking for secure client identification
+* ⚡ Kafka-based asynchronous threat analysis with fully decoupled security services
+* 🎯 Strategy Pattern-driven detection engine for rate abuse, bot activity, and behavioral anomalies
+* 🔄 Circuit Breaker optimization to terminate analysis immediately after threat detection
+* 🚫 Dynamic Redis-backed blacklisting with configurable time-based enforcement
+* 🤖 Ollama LLM integration for AI-assisted threat classification when rule-based strategies fail
+* 📊 Centralized security logging and historical context analysis
+
+![Spring](https://img.shields.io/badge/Spring_Cloud_Gateway-6DB33F?style=flat-square\&logo=spring\&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square\&logo=apache-kafka\&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DD0031?style=flat-square\&logo=redis\&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square\&logo=docker\&logoColor=white)
+
 
 </td>
 <td width="50%" valign="top">
