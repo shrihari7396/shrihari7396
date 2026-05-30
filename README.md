@@ -197,11 +197,6 @@ Static analysis + ML pipeline to classify polymorphic malicious payloads hidden 
 <img src="https://streak-stats.demolab.com?user=shrihari7396&theme=tokyonight&hide_border=true&border_radius=8" height="170"/>
 
 <br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=shrihari7396&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&border_radius=8" height="170"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shrihari7396&layout=compact&theme=tokyonight&hide_border=true&border_radius=8" height="170"/>
-
 </div>
 
 ---
