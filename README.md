@@ -125,25 +125,31 @@ A microservices-based KYC orchestration system that eliminates redundant verific
 <tr>
 <td width="50%" valign="top">
 
-### 🎓 [Real-time Proctoring Engine](https://github.com/shrihari7396/Anti_Plagarism_Interface)
-**Event-Driven Exam Platform**
+### 🧠 [NEXUS: Architecture Intelligence Platform](https://github.com/shrihari7396/Today_Project)
+**AI-Powered Repository Understanding & Architecture Visualization System**
 
-Low-latency WebSocket-based examination platform with real-time anomaly detection for large-scale concurrent sessions.
+Intelligent codebase analysis platform that accepts Git repository URLs, performs AST-driven source code analysis, constructs dependency graphs, and enables natural-language interaction with complete software architectures.
 
 **Key Design Decisions:**
-- `Scale` → Efficient session mapping for thousands of concurrent WebSocket connections
-- `Detection` → Tab switching, focus-loss, and behavioral event monitoring
+- `Architecture Mapping` → AST-based parsing to identify file dependencies, imports, and structural relationships
+- `Knowledge Retrieval` → RAG pipeline for repository-wide semantic search and architecture-aware question answering
+- `Visualization` → Interactive dependency graph generation for large-scale codebase exploration
 
 **Highlights:**
-- ⚡ Persistent bidirectional WebSocket connections
-- 👁️ Multi-event anomaly detection pipeline
-- 📊 Real-time session state management
+- 🔍 Automated Git repository cloning and codebase indexing
+- 🌐 Interactive file-to-file dependency graph visualization
+- 🧠 RAG-powered architecture intelligence and repository Q&A
+- 📂 File location tracing, dependency discovery, and workflow explanation
+- ⚡ FastAPI backend integrated with Anthropic AI for contextual code understanding
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+**Demo:**  
+🔗 https://drive.google.com/drive/folders/1FaOFA_c6KlkVEYwn5Hyu9Hnfw-ba03CM?usp=sharing
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-
-</td>
+![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic_AI-000000?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-Pipeline-blue?style=flat-square)</td>
 <td width="50%" valign="top">
 
 ### 🧬 [Heuristic PDF Malware Analyzer](https://github.com/shrihari7396/Pdf-Malware-Detection-System)
