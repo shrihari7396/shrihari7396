@@ -4,13 +4,15 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=7B8CDE&center=true&vCenter=true&width=600&lines=Building+resilient+backend+systems;Security+%7C+Performance+%7C+Scalability;Spring+Boot+%7C+Kafka+%7C+Distributed+Systems;Architecture+%E2%86%92+Implementation+%E2%86%92+Deployment)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=7B8CDE&center=true&vCenter=true&width=650&lines=Building+resilient+backend+systems;Security+%7C+Performance+%7C+Scalability;Spring+Boot+%7C+Kafka+%7C+gRPC+%7C+Redis;Architecture+%E2%86%92+Implementation+%E2%86%92+Deployment)](https://git.io/typing-svg)
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shrihari-kulkarni-467767299/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shrihari7396)
 [![Profile Views](https://komarev.com/ghpvc/?username=shrihari7396&label=Profile+Views&color=7B8CDE&style=for-the-badge)](https://github.com/shrihari7396)
+
+<img src="https://img.shields.io/badge/🎯_Open_to_Work-SDE_Backend_%2F_Distributed_Systems-2ea44f?style=for-the-badge"/>
 
 </div>
 
@@ -20,19 +22,21 @@
 
 ```yaml
 name        : Shrihari Kulkarni
-focus       : Backend Architecture · Security Engineering · Distributed Systems
+focus       : Backend Architecture · Distributed Systems · Security Engineering
+status      : 3rd Year Computer Engineering, PICT (Class of 2027) — actively interviewing for SDE roles
 currently   :
-  - Building  → Centralized KYC Verification System
+  - Building     → SentientGate — AI-powered API security gateway (Kafka + Redis + gRPC)
   - Contributing → Apache DolphinScheduler (Open Source)
-  - Learning  → Advanced Spring Security · Kubernetes · AWS/GCP · System Design
+  - Sharpening   → System Design · Kubernetes internals · Advanced Spring Security
 strengths   :
-  - Core backend layers: auth, authorization, logging, monitoring, service integration
+  - Event-driven microservices: Kafka, gRPC, Redis-backed caching & consistency
   - High-throughput, stateless, production-oriented system design
+  - Diagnosing and fixing distributed race conditions & cache-consistency edge cases
 philosophy  : Architecture → Implementation → Deployment
 highlights  :
   - CGPA        : 9.30
   - CTF Ranking : Top 7% · AICTE National CTF
-  - DSA         : 850+ algorithmic problems solved
+  - DSA         : 900+ problems solved (LeetCode · Codeforces)
 ```
 
 ---
@@ -48,9 +52,13 @@ highlights  :
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
+### 📡 Messaging & Streaming
+
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+
 ### 🗄️ Distributed Systems & Databases
 
-![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -72,7 +80,7 @@ highlights  :
 <table>
 <tr>
 <td width="50%" valign="top">
-  
+
 ### 🛡️ [SentientGate](https://github.com/shrihari7396/SentientGate)
 
 **AI-Powered Security API Gateway**
@@ -83,6 +91,7 @@ A stateless, high-throughput security gateway that detects and mitigates malicio
 
 * `Problem` → Detect and block malicious clients without increasing request-path latency or consuming backend resources
 * `Solution` → Fire-and-forget Kafka event pipeline with Redis-backed blacklist enforcement, Strategy Pattern-based threat detection, and AI-assisted analysis
+* `Consistency` → Identified and resolved a race condition between Kafka consumer ordering and Redis cache writes using a write-through caching strategy
 
 **Highlights:**
 
@@ -91,15 +100,15 @@ A stateless, high-throughput security gateway that detects and mitigates malicio
 * 🎯 Strategy Pattern-driven detection engine for rate abuse, bot activity, and behavioral anomalies
 * 🔄 Circuit Breaker optimization to terminate analysis immediately after threat detection
 * 🚫 Dynamic Redis-backed blacklisting with configurable time-based enforcement
-* 🤖 Ollama LLM integration for AI-assisted threat classification when rule-based strategies fail
-* 📊 Centralized security logging and historical context analysis
+* 🤖 Ollama/Gemma 3 integration for AI-assisted threat classification when rule-based strategies fail
+* 📊 Centralized security logging, SOC dashboard (React/TypeScript), and historical context analysis
 
-![Spring](https://img.shields.io/badge/Spring_Cloud_Gateway-6DB33F?style=flat-square\&logo=spring\&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square\&logo=apache-kafka\&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DD0031?style=flat-square\&logo=redis\&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring_Cloud_Gateway-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DD0031?style=flat-square&logo=redis&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square\&logo=docker\&logoColor=white)
-
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326ce5?style=flat-square&logo=kubernetes&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
@@ -113,7 +122,7 @@ A microservices-based KYC orchestration system that eliminates redundant verific
 - `Single Source of Truth` → One verified identity reusable across organizations
 - `Consent` → Explicit user authorization required before any data access
 - `Event-Driven` → Asynchronous communication using Kafka
-- `Security` → JWT authentication, RBAC, and encrypted data storage
+- `Security` → JWT authentication, OTP-based DigiLocker verification, and encrypted data storage
 - `Lifecycle` → Automated renewal, revocation, and update workflows
 
 **Highlights:**
@@ -134,33 +143,6 @@ A microservices-based KYC orchestration system that eliminates redundant verific
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 [NEXUS: Architecture Intelligence Platform](https://github.com/shrihari7396/Today_Project)
-**AI-Powered Repository Understanding & Architecture Visualization System**
-
-Intelligent codebase analysis platform that accepts Git repository URLs, performs AST-driven source code analysis, constructs dependency graphs, and enables natural-language interaction with complete software architectures.
-
-**Key Design Decisions:**
-- `Architecture Mapping` → AST-based parsing to identify file dependencies, imports, and structural relationships
-- `Knowledge Retrieval` → RAG pipeline for repository-wide semantic search and architecture-aware question answering
-- `Visualization` → Interactive dependency graph generation for large-scale codebase exploration
-
-**Highlights:**
-- 🔍 Automated Git repository cloning and codebase indexing
-- 🌐 Interactive file-to-file dependency graph visualization
-- 🧠 RAG-powered architecture intelligence and repository Q&A
-- 📂 File location tracing, dependency discovery, and workflow explanation
-- ⚡ FastAPI backend integrated with Anthropic AI for contextual code understanding
-
-**Demo:**  
-🔗 https://drive.google.com/drive/folders/1FaOFA_c6KlkVEYwn5Hyu9Hnfw-ba03CM?usp=sharing
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic_AI-000000?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-Pipeline-blue?style=flat-square)</td>
-<td width="50%" valign="top">
-
 ### 🧬 [Heuristic PDF Malware Analyzer](https://github.com/shrihari7396/Pdf-Malware-Detection-System)
 **Automated Threat Detection Pipeline**
 
@@ -168,16 +150,41 @@ Static analysis + ML pipeline to classify polymorphic malicious payloads hidden 
 
 **Key Design Decisions:**
 - `Innovation` → Custom structural parsers to identify high-entropy object streams in malformed PDFs
-- `Accuracy` → XGBoost ensemble model for classifying zero-day polymorphic variants
+- `Accuracy` → XGBoost ensemble model with SHAP-based interpretability for classifying zero-day polymorphic variants
+- `Usability` → Streamlit interface for quick, interactive scanning
 
 **Highlights:**
-- 🧠 XGBoost + TensorFlow classification pipeline
+- 🧠 XGBoost classification pipeline with SHAP explainability
 - 🔬 Custom PDF structure parser for malformed documents
 - 📈 High-entropy stream detection
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 📈 [TradeSense-Algo](https://github.com/shrihari7396)
+**Systematic Algorithmic Trading Engine**
+
+An autonomous intraday/swing trading system for NSE/BSE that scores every candidate trade on a weighted, multi-factor model and enforces a hard risk gate before any order goes live.
+
+**Key Design Decisions:**
+- `Signal Fusion` → Composite scoring: 30% technical (EMA crossover) · 30% fundamental · 20% sentiment · 20% event-driven
+- `Risk Management` → Hard-coded risk gate — 1.5% per-trade stop loss, 3% daily circuit breaker
+- `Execution` → OpenAlgo/Zerodha integration for live order routing and TradingView-based charting
+
+**Highlights:**
+- 🧠 FinBERT-based sentiment analysis on market-moving news
+- 📊 EMA crossover + composite multi-factor signal generation
+- 🛑 Automated circuit breaker for capital protection
+- 📉 Live order execution via Zerodha with real-time charting
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![FinBERT](https://img.shields.io/badge/FinBERT-NLP-blueviolet?style=flat-square)
+![Risk Management](https://img.shields.io/badge/Risk_Gate-Circuit_Breaker-critical?style=flat-square)
+![TradingView](https://img.shields.io/badge/TradingView-131722?style=flat-square&logo=tradingview&logoColor=white)
 
 </td>
 </tr>
