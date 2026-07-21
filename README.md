@@ -23,7 +23,7 @@
 ```yaml
 name        : Shrihari Kulkarni
 focus       : Backend Architecture · Distributed Systems · Security Engineering
-status      : 3rd Year Computer Engineering, PICT (Class of 2027) — actively interviewing for SDE roles
+status      : 4th Year Computer Engineering, PICT (Class of 2027) — actively interviewing for SDE roles
 currently   :
   - Building     → SentientGate — AI-powered API security gateway (Kafka + Redis + gRPC)
   - Contributing → Apache DolphinScheduler (Open Source)
