@@ -85,23 +85,24 @@ highlights  :
 
 **AI-Powered Security API Gateway**
 
-A stateless, high-throughput security gateway that detects and mitigates malicious traffic in real time using an event-driven architecture, enforcing gateway-level protection before requests reach backend services.
+A stateless, high-throughput API security gateway that detects and mitigates malicious traffic in real time. It utilizes an event-driven architecture to enforce gateway-level protection before requests reach backend services.
 
 **Key Design Decisions:**
 
-* `Problem` → Detect and block malicious clients without increasing request-path latency or consuming backend resources
-* `Solution` → Fire-and-forget Kafka event pipeline with Redis-backed blacklist enforcement, Strategy Pattern-based threat detection, and AI-assisted analysis
-* `Consistency` → Identified and resolved a race condition between Kafka consumer ordering and Redis cache writes using a write-through caching strategy
+* `Problem` → Detect and block malicious clients without increasing request-path latency or consuming backend resources.
+* `Solution` → Implemented a fire-and-forget Kafka event pipeline with Redis-backed blacklist enforcement, a Strategy Pattern-based threat detection engine, and AI-assisted analysis.
+* `Consistency` → Identified and resolved a race condition between Kafka consumer message ordering and Redis cache writes by implementing a write-through caching strategy.
 
 **Highlights:**
 
-* 🪪 Cryptographically signed Visitor ID tracking for secure client identification
-* ⚡ Kafka-based asynchronous threat analysis with fully decoupled security services
-* 🎯 Strategy Pattern-driven detection engine for rate abuse, bot activity, and behavioral anomalies
-* 🔄 Circuit Breaker optimization to terminate analysis immediately after threat detection
-* 🚫 Dynamic Redis-backed blacklisting with configurable time-based enforcement
-* 🤖 Ollama/Gemma 3 integration for AI-assisted threat classification when rule-based strategies fail
-* 📊 Centralized security logging, SOC dashboard (React/TypeScript), and historical context analysis
+* 🪪 Cryptographically signed Visitor ID tracking for secure client identification.
+* ⚡ Kafka-based asynchronous threat analysis with fully decoupled security microservices.
+* 🎯 Strategy Pattern-driven detection engine for rate abuse, bot activity, and behavioral anomalies.
+* 🔄 Circuit Breaker optimization to terminate analysis immediately after a threat is detected.
+* 🚫 Dynamic Redis-backed blacklisting with configurable time-based enforcement.
+* 🚀 Integrated **gRPC** for high-speed behavioral history retrieval across services.
+* 🤖 Ollama/Gemma 3 integration for AI-assisted threat classification when rule-based strategies are inconclusive.
+* 📊 Centralized security logging, SOC dashboard (React/TypeScript), and historical context analysis.
 
 ![Spring](https://img.shields.io/badge/Spring_Cloud_Gateway-6DB33F?style=flat-square&logo=spring&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
