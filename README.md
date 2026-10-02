@@ -32,6 +32,7 @@ education:
 technical_focus:
   languages: [Java, C/C++, Python, SQL]
   backend: [Spring Boot, Spring Security, Spring Data JPA, Spring Cloud, Spring MVC, gRPC]
+  system_design: [High-Level Design (HLD), Low-Level Design (LLD), SOLID Principles]
   distributed_systems: [Apache Kafka, Redis, microservices, asynchronous workflows]
   infrastructure: [Docker, Kubernetes, GitHub Actions]
 projects:
@@ -100,6 +101,7 @@ achievements:
 ### 🏗️ System Design
 
 ![High-Level Design](https://img.shields.io/badge/High--Level_Design-HLD-DB6D28?style=for-the-badge)
+![Low-Level Design](https://img.shields.io/badge/Low--Level_Design-LLD-0F766E?style=for-the-badge)
 ![SOLID Principles](https://img.shields.io/badge/SOLID_Principles-SOLID-475569?style=for-the-badge)
 
 ---
